@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Testes</title>
+</head>
+
+<body>
+    <h1>LISTA DE CONTATOS</h1>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text">Nome</span>
+        <input type="text" id="nameCreate" class="form-control" aria-label="Username" autocomplete="off">
+        <span class="input-group-text">Telefone</span>
+        <input type="text" id="phoneCreate" class="form-control" aria-label="Server" autocomplete="off">
+        <button id="btnAddContact" class="btn btn-outline-secondary" type="button" id="button-addon1"
+            autocomplete="off">Cadastrar</button>
+    </div>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text">ID</span>
+        <input id="idEdit" type="text" class="form-control" aria-label="Username" autocomplete="off">
+        <span class="input-group-text">Nome</span>
+        <input id="nameEdit" type="text" class="form-control" aria-label="Server" autocomplete="off">
+        <span class="input-group-text">Telefone</span>
+        <input id="phoneEdit" type="text" class="form-control" aria-label="Server">
+        <button id="btnEditContact" class="btn btn-outline-secondary" type="button" id="button-addon1"
+            autocomplete="off">Alterar</button>
+    </div>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text">ID</span>
+        <input id="idDelete" type="text" class="form-control" aria-label="Username" autocomplete="off">
+        <button id="btnDelete" class="btn btn-outline-secondary" type="button" id="button-addon1"
+            autocomplete="off">Excluir</button>
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Telefone</th>
+            </tr>
+        </thead>
+        <tbody id="container-contacts">
+            <template id="contacts-template" class="contact">
+                <tr>
+                    <th scope="row"><span></span></th>
+                    <td><span></span></td>
+                    <td><span></span></td>
+                </tr>
+            </template>
+        </tbody>
+    </table>
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
