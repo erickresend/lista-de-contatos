@@ -1,11 +1,12 @@
 # Lista de contatos
 
-#Sobre o projeto
+# Sobre o projeto
 Meu primeiro projeto feito 100% sem seguir tutorial.
 Com a lista podemos listar, inserir, atualizar e deletar novos contatos, trazendo as informações do banco de dados.
 
 
 ## Layout
+![Layout](https://github.com/erickresend/lista-de-contatos/blob/main/view/images/layout.png)
 
 # Tecnologias utilizadas
 ## Back end
@@ -19,5 +20,5 @@ Com a lista podemos listar, inserir, atualizar e deletar novos contatos, trazend
 - Bootstrap
 
 # Autor
-Erick Resende
+Erick Resende - 
 https://www.linkedin.com/in/erickresende
