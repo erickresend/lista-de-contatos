@@ -1,15 +1,23 @@
-# Projeto de lista de contatos
+# Lista de contatos
 
-# Conhecimentos que precisei ter para fazer esse projeto
-Java e programação orientada a objetos
-Spring web - Anotacions e várias funcionalidades para programar web
-Spring data JPA - Fazer a comunicação com o banco de dados
-Banco de dados H2 - Salvar os dados em memoria ou em um arquivo
-Padrão Rest - Para padronizar a comunicação entre a API e o cliente
-Arquitetura MVC - Organizar o projeto
-Maven - Gerenciar as dependencias
-Html - Fazer o corpo da página
-Css - Algumas pequenas modificações
-Bootstrap - Quase todo o estilo foi feito com ele
-JavaScript - Para comunicar com a API usando Fetch API e trabalhar com as tags HTML
-Cors - Precisei entender um pouco das configurações para conseguir comunicar com a API
+#Sobre o projeto
+Meu primeiro projeto feito 100% sem seguir tutorial.
+Com a lista podemos listar, inserir, atualizar e deletar novos contatos, trazendo as informações do banco de dados.
+
+
+## Layout
+
+# Tecnologias utilizadas
+## Back end
+- Java
+- Spring Boot
+- Spring Data JPA / Hibernate
+- Maven
+- ## Front end
+- HTML / CSS
+- JavaScript Fetch API e manipulação de tags html
+- Bootstrap
+
+# Autor
+Erick Resende
+https://www.linkedin.com/in/erickresende
